@@ -1,4 +1,4 @@
-
+module.exports = (() => {
 // This is ammo.js, a port of Bullet Physics to JavaScript. zlib licensed.
 var AmmoLib = function(AmmoLib) {
   AmmoLib = AmmoLib || {};
@@ -29,4 +29,8 @@ var jb=[Iy,Og,Hl,Xf,fp,Kc,Qe,Nf,If,$b,Yc,zc,Pd,Yd,Gc,Ps,tg,ic,Ld,ql,ji,cf,Iy,Iy,
   return AmmoLib;
 };
 
-Ammo = AmmoLib();
+const Ammo = AmmoLib();
+
+return Ammo;
+
+})();
