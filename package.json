@@ -1,6 +1,6 @@
 {
   "name": "ammojs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ammo.js bullet physics engine compiled to Javascript with emscripten",
   "main": "ammo.js",
   "scripts": {
